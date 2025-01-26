@@ -7,5 +7,4 @@ trigger AccountTrigger on Account (before insert,before update, after insert) {
         }
         System.debug(acc.AccountNumber);
     }
-// Add this line to deploy
 }
