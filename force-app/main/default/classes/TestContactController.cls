@@ -1,5 +1,7 @@
 @isTest
 public with sharing class TestContactController {
+
+// Add for test
     public static void createContacts(Integer amount) {
         List<Contact> contacts = new List<Contact>();
 
